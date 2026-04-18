@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SerenityLink - A Global Community of Healing</title>
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to our Style source -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Transparent, glassmorphism Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✨</span> SerenityLink
+            </div>
+            <ul class="nav-links">
+                <li><a href="#feed" class="active">Community</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#journey">My Journey</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with smooth background and inspiring message -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="fade-in-up">You are never alone on your journey.</h1>
+            <p class="fade-in-up delay-1">Join thousands of recovering individuals worldwide. Share your milestones, find support, and light the way for others.</p>
+            <div class="hero-actions fade-in-up delay-2">
+                <a href="#feed" class="btn btn-primary">Join the Community</a>
+            </div>
+        </div>
+
+        <!-- Milestone Tracker Widget Overlay -->
+        <div class="milestone-widget fade-in-up delay-3">
+            <div class="milestone-header">
+                <h3>My Sobriety Milestone</h3>
+                <span class="edit-icon">✏️</span>
+            </div>
+            <div class="milestone-time" id="milestone-display">
+                <div class="time-block">
+                    <span class="number" id="years">1</span>
+                    <span class="label">Years</span>
+                </div>
+                <div class="time-block">
+                    <span class="number" id="months">3</span>
+                    <span class="label">Months</span>
+                </div>
+                <div class="time-block">
+                    <span class="number" id="days">14</span>
+                    <span class="label">Days</span>
+                </div>
+            </div>
+            <div class="milestone-encouragement">Keep stepping forward. We are so proud of you!</div>
+        </div>
+    </header>
+
+    <!-- Global Community Feed Section -->
+    <section class="global-feed" id="feed">
+        <div class="section-header">
+            <h2>🌍 Global Community Wall</h2>
+            <p>Real stories, real milestones, real support.</p>
+        </div>
+
+        <div class="feed-container" id="feed-container">
+            <!-- Feed cards will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer>
+        <p>&copy; 2026 SerenityLink. Built with hope.</p>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
